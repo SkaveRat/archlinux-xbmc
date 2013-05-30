@@ -229,14 +229,14 @@ mkdir -p ${work_dir}
 run_once make_pacman_conf
 
 # Do all stuff for each root-image
-for arch in i686 x86_64; do
+for arch in x86_64; do
     run_once make_basefs
     run_once make_packages
     run_once make_setup_mkinitcpio
     run_once make_customize_root_image
 done
 
-for arch in i686 x86_64; do
+for arch in x86_64; do
     run_once make_boot
 done
 
@@ -249,7 +249,7 @@ run_once make_efiboot
 
 run_once make_aitab
 
-for arch in i686 x86_64; do
+for arch in x86_64; do
     run_once make_prepare
 done
 

@@ -1,0 +1,25 @@
+<sources>
+    <programs>
+        <default pathversion="1"></default>
+    </programs>
+    <video>
+        <default pathversion="1"></default>
+        <source>
+            <name>video</name>
+            <path pathversion="1">ftp://hyperion:21/video/</path>
+        </source>
+    </video>
+    <music>
+        <default pathversion="1"></default>
+        <source>
+            <name>music</name>
+            <path pathversion="1">ftp://hyperion:21/music/</path>
+        </source>
+    </music>
+    <pictures>
+        <default pathversion="1"></default>
+    </pictures>
+    <files>
+        <default pathversion="1"></default>
+    </files>
+</sources>

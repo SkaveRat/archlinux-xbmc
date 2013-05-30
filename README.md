@@ -2,6 +2,12 @@ Archlinux XBMC
 ==============
 
 This is a purely WIP image.
+Build on an archlinux system
+
+Dependencies
+------------
+- archiso
+
 
 
 Building

@@ -32,7 +32,19 @@ Add package
 
 Just add wanted package to `packages.*`
 
+
+Add configs/files
+-----------------
+
+just add all wanted files to the `root-image` directory. All files will be copied as-is into the final image.
+
+
 Todos
 -----
 
 - remove unneeded packages
+
+More info
+---------
+
+For more information, check out the [Archiso](https://wiki.archlinux.org/index.php/Archiso) wiki page.

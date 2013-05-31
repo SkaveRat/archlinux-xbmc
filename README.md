@@ -2,7 +2,8 @@ Archlinux XBMC
 ==============
 
 This is a purely WIP image.
-Build on an archlinux system
+
+Build this on an x86\_64 archlinux system
 
 Dependencies
 ------------

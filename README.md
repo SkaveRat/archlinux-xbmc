@@ -7,7 +7,7 @@ Usable as a livesystem for CD, USB or network boot.
 
 This configuration is tailored for a system of the [chaosdorf](http://chaosdorf.de) hackspace.
 
-If you want to use this for your own system, please note the specific settings (hostname, ssh private keys)
+If you want to use this for your own system, please note our settings (hostname, ssh public keys) and change appropriately
 
 
 Dependencies

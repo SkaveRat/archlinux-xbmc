@@ -107,7 +107,6 @@ make_syslinux() {
         sed "s|%ARCHISO_LABEL%|${iso_label}|g;
              s|%INSTALL_DIR%|${install_dir}|g" ${_cfg} > ${work_dir}/iso/${install_dir}/boot/syslinux/${_cfg##*/}
     done
-    cp ${script_path}/syslinux/splash.png ${work_dir}/iso/${install_dir}/boot/syslinux
     cp ${work_dir}/${arch}/root-image/usr/lib/syslinux/*.c32 ${work_dir}/iso/${install_dir}/boot/syslinux
     cp ${work_dir}/${arch}/root-image/usr/lib/syslinux/*.com ${work_dir}/iso/${install_dir}/boot/syslinux
     cp ${work_dir}/${arch}/root-image/usr/lib/syslinux/*.0 ${work_dir}/iso/${install_dir}/boot/syslinux

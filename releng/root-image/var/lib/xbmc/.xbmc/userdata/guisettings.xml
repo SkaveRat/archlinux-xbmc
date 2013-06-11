@@ -110,7 +110,7 @@
         </musicfiles>
     </viewstates>
     <general>
-        <systemtotaluptime>0</systemtotaluptime>
+        <systemtotaluptime>7</systemtotaluptime>
         <addonautoupdate>true</addonautoupdate>
         <addonnotifications>true</addonnotifications>
         <addonforeignfilter>false</addonforeignfilter>
@@ -139,7 +139,7 @@
     </defaultvideosettings>
     <audio>
         <mute>false</mute>
-        <fvolumelevel>0.833333</fvolumelevel>
+        <fvolumelevel>1.000000</fvolumelevel>
     </audio>
     <resolutions />
     <audiocds>
@@ -155,7 +155,7 @@
     </audiocds>
     <audiooutput>
         <ac3passthrough>true</ac3passthrough>
-        <audiodevice>ALSA:@</audiodevice>
+        <audiodevice>ALSA:@:CARD=AUDIO,DEV=0</audiodevice>
         <channels>1</channels>
         <dtshdpassthrough>true</dtshdpassthrough>
         <dtspassthrough>true</dtspassthrough>
@@ -164,7 +164,7 @@
         <multichannellpcm>true</multichannellpcm>
         <normalizelevels>true</normalizelevels>
         <passthroughaac>false</passthroughaac>
-        <passthroughdevice>ALSA:iec958:CARD=NVidia,DEV=0</passthroughdevice>
+        <passthroughdevice>ALSA:iec958:CARD=VT82xx,DEV=0</passthroughdevice>
         <stereoupmix>false</stereoupmix>
         <truehdpassthrough>true</truehdpassthrough>
     </audiooutput>
@@ -317,7 +317,7 @@
     </pictures>
     <powermanagement>
         <displaysoff>0</displaysoff>
-        <shutdownstate>-1</shutdownstate>
+        <shutdownstate>1</shutdownstate>
         <shutdowntime>0</shutdowntime>
     </powermanagement>
     <pvrclient>
@@ -458,15 +458,15 @@
         <rendermethod>0</rendermethod>
         <resamplequality>1</resamplequality>
         <stretch43>0</stretch43>
-        <synctype>2</synctype>
+        <synctype>0</synctype>
         <teletextenabled>true</teletextenabled>
         <teletextscale>true</teletextscale>
-        <usedisplayasclock>true</usedisplayasclock>
+        <usedisplayasclock>false</usedisplayasclock>
         <usepbo>true</usepbo>
-        <usevaapi>true</usevaapi>
+        <usevaapi>false</usevaapi>
         <usevdpau>true</usevdpau>
         <vdpau_allow_xrandr>false</vdpau_allow_xrandr>
-        <vdpaustudiolevel>true</vdpaustudiolevel>
+        <vdpaustudiolevel>false</vdpaustudiolevel>
         <vdpauupscalinglevel>false</vdpauupscalinglevel>
     </videoplayer>
     <videoscreen>

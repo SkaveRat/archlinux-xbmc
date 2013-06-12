@@ -1,5 +1,8 @@
 <settings>
-    <videoplayer>
-        <usevaapi>false</usevaapi>
-    </videoplayer>
+  <videoplayer>
+    <usevaapi>false</usevaapi>
+  </videoplayer>
+  <musicplayer>
+    <visualisation>visualization.projectm</visualisation>
+  </musicplayer>
 </settings>
